@@ -1,0 +1,10 @@
+T	comparison	DEGs
+T0	T0_pad4_vs_siz1-2_pad4	750
+T0	T0_pad4_vs_1xB_pad4	82
+T0	T0_siz1-2_pad4_vs_1xB_pad4	25
+T1	T1_pad4_vs_siz1-2_pad4	9728
+T1	T1_pad4_vs_1xB_pad4	6428
+T1	T1_siz1-2_pad4_vs_1xB_pad4	38
+T2	T2_pad4_vs_siz1-2_pad4	848
+T2	T2_pad4_vs_1xB_pad4	209
+T2	T2_siz1-2_pad4_vs_1xB_pad4	14
