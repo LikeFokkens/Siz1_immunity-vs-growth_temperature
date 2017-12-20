@@ -30,11 +30,11 @@ Contains the notebooks (code and comments) that were used to analyze the data. T
 Notebooks also contain lines of reasoning etc., to enhance communication between a bioinformatician that is not deeply into the subject (Like Fokkens) and the PI that is (Harrold van den Burg). We kept them because it actually makes the code more understandable.  
 
 
-**pickles**. 
+**pickles**  
 Contains pickled Python objects generated and reused in the notebooks.   
 
 
-**results**. 
+**results**  
 Plots are shown in the notebook, but also saved in different file-formats in this directory. These files were imported in Adobe Illustrator to make the Figures as they appear in the paper.
 
 
