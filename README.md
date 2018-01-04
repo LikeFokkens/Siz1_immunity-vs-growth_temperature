@@ -1,17 +1,11 @@
 ### Description
 
-This repository contain the datafiles and notebooks that were used in analizing microarray data described in [URL PLoS] and create Figure 4.
-
-Here we aimed to study the role of SUMO-signalling in thermomorphogenesis (= how growth/shape changes in response to the temperature). Both growth and immunity are affected by temperature changes. To disentangle these two processes we subjected a _pad4_ mutant (an _Arabidopsis_ line in which the gene _PAD4_, a key regulator of the immune response to temperature changes, was knocked out/knocked down) to temperature changes. We grew this line at 22 °C, and switched to 28 °C. We measured gene expression at three time points: T0 (at the temperature switch), T1 (24 after after the temperature switch) and T2 (48 hours after the temperature switch). Additionally, we used two double-mutant lines in which not only PAD4 was knocked out, but also _SIZ1_ (_siz1 pad4_), and a double knockdown of SUMO1 and SUMO2 (_1xB pad4_). Martijs Jonker determined expression levels at different timepoints and determined overexpression in time (within the same mutant, compared one time point to the other and see which genes are differentially expressed, files are in **data/reanalysisTime**) and in different mutants (in one timepoint, compared the double mutants to the single mutant: _siz1 pad4_ to _pad4_ and _1xB pad4_ to _pad4_, files are in **data/reanalysisStrains**).
-
-In **notebooks**, we put the code that we used to analyze (differences in) expression levels for differentially expressed genes in Jupyter notebooks. By running these notebooks, you should be able to reproduce the results we presented in the paper easily.
-
-The notebooks are in Python2 (Python 2.7.13 to be exact), we used the Anaconda2 4.3.0 distribution. To draw Venn-diagrams we used matplotlib_venn, that can be installed via easy_install or pip (https://pypi.python.org/pypi/matplotlib-venn/). We used version 0.11.4.
-
-___
-The goal of this repository is open science, so if you have any comments (bugs, bad practices, ommissions, things that are not clearly explained, positive feedback), please make an issue and we'll look at it (and learn from it). **This is very much appreciated!**
-___
-
-
-Description of files is in Contents.md.
-
+This repository contains the data files with differential expressed genes (DEGs) and notebooks that were used to analyse the microarray experiment described in Hammoudi _et al._, 2018 (PLoS Genetics). The presented scripts were used to create Figure 5 and the Supplemental figures S6-S9. The scripts do not contain the scripts and methods used to analyse the raw microarray data.  
+  This study uncovered the role of SUMO-signalling in thermomorphogenesis (= how growth/shape changes in response to the temperature) and immunity at high temperature. To disentangle these two processes we subjected a _pad4-1_ mutant (an Arabidopsis mutant in which the _PAD4_ gene, a key regulator of the immune response, was mutated, which avoided spurious immune signalling due to auto-immunity). We grew all plants for 2 weeks at 22 degrees Celsius under 11L/13D conditions, and moved the plants to 28 degrees 4 hours after dawn. We measured gene expression at three time points: T0 (at the temperature shift), T1 (24 hours after the shift to high ambient temperature) and T2 (72 hours after the shift to high ambient temperature). The experiment contained 3 biological replicates for each mutant at each time point.  
+  Moreover, we used two double-mutants in which not only _PAD4_ was mutated, but also _SIZ1_ (_siz1-2 pad4-1_), or a mutant in which _SUMO1_ is knocked-out and _SUMO2_ is silenced using amiRNA (_sumo1-1 amiR-SUMO2_ (a.k.a. _1xB_) _pad4_).  
+   Bas Beerens sampled the plants and extracted the RNA, Martijs Jonker and Paul Wackers (University of Amsterdam, RNA Biology group) analysed the raw microarray data and determined the gene expression levels at different time points and determined significant changes in expression in time (within the same mutant, compared one time point to the other; these files are in the **data/reanalysisTime** folder) and between the three mutants (i.e. one time point, comparing _siz1 pad4_ to _pad4_ or _1xB pad4_ to _pad4_; these files are in the **data/reanalysisStrains** folder).   
+  In notebooks, the code has been placed that was used to analyse the global (differences in) gene expression for the differentially expressed genes (DEGs) using Jupyter notebooks. By running these notebooks, you should be able to reproduce the results we presented in the paper in Figure 5 and the Supplemental figures S6-S9. Run the notebooks from the notebook directory.
+  
+The notebooks are written in Python2 (version Python 2.7.13) using the Anaconda2 4.3.0 distribution.The goal of this repository is open science, so if you have any comments (bugs, bad practices, omissions, things that are not clearly explained, positive feedback), please make an issue and we'll look into it (and learn from it). This is very much appreciated!  
+  
+Description of files is in Contents.md.  

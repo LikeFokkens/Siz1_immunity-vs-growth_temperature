@@ -27,11 +27,11 @@ We intersect differentially expressed genes with genes that are under control of
 **notebooks**  
 Contains the notebooks (code and comments) that were used to analyze the data. They were changed a bit to allow you to download this repository and reproduce the figures out of the box, the original notebooks contained local paths to files, etc. We've also added a few extra comments in the code to make it easier to understand. We removed a few spurious analyses that were just extra confirmations or visualizations that did not make it into the paper. 
 
-Notebooks also contain lines of reasoning etc., to enhance communication between a bioinformatician that is not deeply into the subject (Like Fokkens) and the PI that is (Harrold van den Burg). We kept them because it actually makes the code more understandable.  
+Notebooks also contain lines of reasoning etc., to enhance communication between a bioinformatician that is not deeply into the subject (Like Fokkens) and the PI that is (Harrold van den Burg). We kept them because it hoepfully makes the code more understandable.  
 
 
-**pickles**  
-Contains pickled Python objects generated and reused in the notebooks.   
+**util**  
+Contains lists and pickled Python objects generated and reused in the notebooks.   
 
 
 **results**  
